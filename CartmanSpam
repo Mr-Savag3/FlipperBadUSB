@@ -16,6 +16,7 @@ DELAY 1000
 ENTER
 DELAY 1000
 STRING $key=[Math]::Ceiling(100/2);$obj=New-Object -ComObject WScript.Shell;for($i=0;$i -lt $key;$i++){$obj.SendKeys([char] 175)}
+REM this bit is from I_Am_Jakoby because he is an absolute legend.
 ENTER
 DELAY 100
 STRING exit
